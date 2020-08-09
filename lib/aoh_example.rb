@@ -24,7 +24,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  JOELLE_VD[1][0]
+  assembled_aoh[1][0]
 end
 
 def aoh_update(aoh, row, key, new_value)
