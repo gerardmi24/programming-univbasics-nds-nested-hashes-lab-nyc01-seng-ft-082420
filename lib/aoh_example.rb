@@ -24,12 +24,12 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  assembled_aoh[1][name:]
+  literal_aoh[1][name:]
 end
 
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
-  assembled_aoh[row][key] = "new_value"
-assembled_aoh
+  literal_aoh[row][key] = "new_value"
+literal_aoh
 end
